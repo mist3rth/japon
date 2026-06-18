@@ -391,7 +391,7 @@ export function CinematicFooter() {
                 onClick={scrollToTop}
                 className="flex items-center gap-3 cursor-pointer group"
               >
-                <div className="relative h-10 flex items-center justify-center group-hover:scale-105 active:scale-95 transition-all duration-300">
+                <div className="relative h-10 flex items-center justify-center group-hover:scale-105 active:scale-95 transition-all duration-300 pt-2.5 md:pt-0">
                   <img
                     src={logoImg}
                     alt="Nippon Logo"
