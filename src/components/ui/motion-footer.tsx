@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform, useSpring, useMotionValue } from "moti
 import { cn } from "../../lib/utils";
 
 // @ts-ignore
-import sakuraBackground from "../../A_breathtaking_Japanese_sakura_scene,_202606151914.jpeg";
+import sakuraBackground from "../../sakura.webp";
 // @ts-ignore
 import logoImg from "../../japan-logo.webp";
 
