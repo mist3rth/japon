@@ -24,4 +24,5 @@ export interface Destination {
   quickDescription: string;
   gradientText: string; // inline classes for text gradient e.g., "bg-gradient-to-r from-pink-500 via-rose-500 to-red-500 bg-clip-text text-transparent"
   gradientBg: string;   // Tailwind classes for background gradient, e.g., "from-pink-500 via-rose-500 to-red-500"
+  thumbnail: string;
 }

@@ -13,6 +13,7 @@ export const destinations: Destination[] = [
     borderGlow: "border-rose-500 shadow-rose-500/50",
     gradientText: "bg-gradient-to-r from-pink-500 via-rose-500 to-red-500 bg-clip-text text-transparent",
     gradientBg: "from-pink-500 via-rose-500 to-red-500",
+    thumbnail: "/images/thumbnails/tokyo-thumb.webp",
     quickDescription: "Tokyo est la mégapole technologique trépidante du Japon. Mêlant des gratte-ciels de néons vertigineux à de paisibles sanctuaires historiques, c'est une ville en mouvement perpétuel aux découvertes sensorielles infinies.",
     facts: [
       { label: "Population", value: "14 millions" },
@@ -50,6 +51,7 @@ export const destinations: Destination[] = [
     borderGlow: "border-red-600 shadow-red-500/50",
     gradientText: "bg-gradient-to-r from-red-600 via-rose-600 to-orange-500 bg-clip-text text-transparent",
     gradientBg: "from-red-600 via-rose-600 to-orange-500",
+    thumbnail: "/images/thumbnails/kyoto-thumb.webp",
     quickDescription: "Kyoto est le cœur culturel du Japon. Elle abrite des thousands de temples bouddhistes classiques, des jardins zen sublimes, des palais impériaux majestueux, des sanctuaires shinto et des maisons traditionnelles en bois (machiya).",
     facts: [
       { label: "Population", value: "1,4 million" },
@@ -87,6 +89,7 @@ export const destinations: Destination[] = [
     borderGlow: "border-orange-500 shadow-orange-500/50",
     gradientText: "bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent",
     gradientBg: "from-orange-500 via-red-500 to-pink-500",
+    thumbnail: "/images/thumbnails/dotonbori-thumb.webp",
     quickDescription: "Osaka est un pôle commercial vaste et coloré sur l'île de Honshu. Elle est célèbre pour son architecture moderne, sa scène culinaire exubérante, ses panneaux publicitaires géants et la convivialité légendaire de ses habitants.",
     facts: [
       { label: "Population", value: "2,7 millions" },
@@ -124,6 +127,7 @@ export const destinations: Destination[] = [
     borderGlow: "border-rose-500 shadow-rose-500/50",
     gradientText: "bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 bg-clip-text text-transparent",
     gradientBg: "from-amber-500 via-orange-500 to-rose-500",
+    thumbnail: "/images/thumbnails/nara-thumb.webp",
     quickDescription: "Nara fut la toute première capitale permanente du Japon. Elle abrite certains des plus anciens et grands monuments historiques du pays, au cœur d'un parc boisé où plus de 1 200 cerfs Sika se proviennent en toute liberté.",
     facts: [
       { label: "Population", value: "350 000 habitants" },

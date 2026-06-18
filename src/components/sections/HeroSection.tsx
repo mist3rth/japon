@@ -190,7 +190,7 @@ export default function HeroSection({
                       {/* Image Circle */}
                       <div className="w-full h-full rounded-full overflow-hidden">
                         <img
-                          src={dest.image}
+                          src={dest.thumbnail}
                           alt={dest.cityLabel}
                           width="128"
                           height="128"
