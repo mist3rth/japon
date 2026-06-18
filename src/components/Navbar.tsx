@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import logoImg from "../japon-logo.webp";
+import logoImg from "../japan-logo.webp";
 
 interface NavbarProps {
   currentSection: "destinations" | "experiences" | "key-info";

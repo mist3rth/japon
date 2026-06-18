@@ -1,7 +1,6 @@
 import { Destination } from "./types";
-import defaultBg from "../supprime_tout_les_éléments_sauf_202606151657.jpeg";
-import tokyoBg from "./tokio.jpeg";
-import shibuyaBg from "./shibuya.jpeg";export const destinations: Destination[] = [
+
+export const destinations: Destination[] = [
   {
     id: "tokyo",
     title: "TOKYO",

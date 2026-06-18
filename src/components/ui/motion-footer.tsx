@@ -8,7 +8,7 @@ import { cn } from "../../lib/utils";
 // @ts-ignore
 import sakuraBackground from "../../A_breathtaking_Japanese_sakura_scene,_202606151914.jpeg";
 // @ts-ignore
-import logoImg from "../../japon-logo.webp";
+import logoImg from "../../japan-logo.webp";
 
 // -------------------------------------------------------------------------
 // 1. THEME-ADAPTIVE INLINE STYLES WITH JAPAN COLORS (NIPPON VIBE)
