@@ -7,7 +7,6 @@ import { ErrorBoundary } from "./components/ErrorBoundary";
 
 // Lazy-loaded components for code-splitting (reduces initial JS bundle size dramatically)
 const ExploreDrawer = lazy(() => import("./components/ExploreDrawer"));
-const ExperiencesPage = lazy(() => import("./components/ExperiencesPage"));
 const KeyInformationPage = lazy(() => import("./components/KeyInformationPage"));
 const EditorialIntro = lazy(() => import("./components/EditorialIntro"));
 const DestinationsHub = lazy(() => import("./components/DestinationsHub"));
@@ -119,21 +118,6 @@ export default function App() {
 
               <ErrorBoundary sectionName="PracticalInfo">
                 <PracticalInfo />
-              </ErrorBoundary>
-            </Suspense>
-          </motion.div>
-        ) : currentSection === "experiences" ? (
-          <motion.div
-            key="experiences-group"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            transition={{ duration: 0.4 }}
-            className="w-full font-sans text-neutral-100"
-          >
-            <Suspense fallback={<div className="min-h-screen bg-neutral-950 animate-pulse" />}>
-              <ErrorBoundary sectionName="ExperiencesPage">
-                <ExperiencesPage />
               </ErrorBoundary>
             </Suspense>
           </motion.div>
