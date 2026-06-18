@@ -395,6 +395,8 @@ export function CinematicFooter() {
                   <img
                     src={logoImg}
                     alt="Nippon Logo"
+                    width="150"
+                    height="40"
                     className="h-full w-auto object-contain z-10"
                     referrerPolicy="no-referrer"
                   />
