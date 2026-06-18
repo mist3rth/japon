@@ -57,6 +57,8 @@ export default function HeroSection({
               src={currentDest.image}
               alt={currentDest.cityLabel}
               style={{ y: imageY }}
+              width="1920"
+              height="1080"
               className="w-full h-full object-cover object-center brightness-[0.92] saturate-[1.02] scale-[1.15]"
               referrerPolicy="no-referrer"
               fetchPriority="high"
@@ -190,6 +192,8 @@ export default function HeroSection({
                         <img
                           src={dest.image}
                           alt={dest.cityLabel}
+                          width="128"
+                          height="128"
                           className={`w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ${
                             isSelected ? "brightness-100 saturate-[1.25]" : "brightness-[0.6] grayscale-[20%]"
                           }`}
