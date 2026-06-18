@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Découverte Nippon — Portail immersif du Japon</title>
+    <meta name="description" content="Explorez le Japon à travers un portail immersif : Tokyo, Kyoto, Osaka et Nara. Découvrez les coutumes, les lieux sacrés et l'art de vivre japonais." />
+    <meta name="keywords" content="Japon, Tokyo, Kyoto, Osaka, Nara, voyage, tourisme, immersif" />
+    <meta name="author" content="Découverte Nippon" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Preload the critical Largest Contentful Paint (LCP) image -->
+    <link rel="preload" as="image" href="/tokyo.webp" fetchpriority="high" />
+    
+    <!-- Open Graph for social media sharing -->
+    <meta property="og:title" content="Découverte Nippon — Portail immersif du Japon" />
+    <meta property="og:description" content="Explorez le Japon à travers un portail immersif : Tokyo, Kyoto, Osaka et Nara. Découvrez les coutumes, les lieux sacrés et l'art de vivre japonais." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Découverte Nippon — Explorez Tokyo, Kyoto, Osaka & Nara" />
+    <meta property="og:locale" content="fr_FR" />
+    
+    <!-- Twitter Cards for Twitter/X sharing -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Découverte Nippon — Portail immersif du Japon" />
+    <meta name="twitter:description" content="Explorez le Japon à travers un portail immersif : Tokyo, Kyoto, Osaka et Nara." />
+    <meta name="twitter:image" content="/og-image.png" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Découverte Nippon",
+      "description": "Portail immersif dédié à la découverte de la culture et du tourisme au Japon.",
+      "url": "https://decouverte-nippon.example.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://decouverte-nippon.example.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

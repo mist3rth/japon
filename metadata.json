@@ -1,0 +1,6 @@
+{
+  "name": "Japan Hero Section",
+  "description": "An interactive, high-fidelity hero section for exploring Japan, where clicking different destination previews dynamically swaps the immersive background image with smooth transitions and layout elements matching the original design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

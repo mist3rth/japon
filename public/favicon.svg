@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Solid white circle background -->
+  <circle cx="50" cy="50" r="46" fill="#ffffff" />
+  <!-- Stylized traditional Japanese Torii gate in charcoal black -->
+  <path d="M 26,34 C 40,38 60,38 74,34 V 40 C 60,43 40,43 26,40 Z" fill="#ef4444" />
+  <path d="M 32,40 H 68 V 44 H 32 Z" fill="#171717" />
+  <path d="M 41,44 V 74 H 47 V 44 Z" fill="#171717" />
+  <path d="M 53,44 V 74 H 59 V 44 Z" fill="#171717" />
+  <!-- Vibrant red rising sun sphere overlapping the upper center of the gate -->
+  <circle cx="50" cy="27" r="9" fill="#df1c2d" />
+</svg>
