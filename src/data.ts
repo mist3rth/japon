@@ -29,12 +29,12 @@ export const destinations: Destination[] = [
       {
         name: "Temple Senso-ji",
         desc: "Le plus ancien et le plus emblématique temple bouddhiste de Tokyo situé à Asakusa, doté de la magnifique porte Kaminarimon.",
-        image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=600&fit=crop"
+        image: "/images/senso_ji.png"
       },
       {
         name: "Quartier électrique d'Akihabara",
         desc: "Le légendaire quartier des néons et capitale mondiale des animés, mangas, jeux rétro et culture tech.",
-        image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?q=80&w=600&fit=crop"
+        image: "/images/akihabara.png"
       }
     ]
   },
@@ -66,12 +66,12 @@ export const destinations: Destination[] = [
       {
         name: "Fushimi Inari-Taisha",
         desc: "Le chemin de montagne mystique bordé de plus de 10 000 torii vermillon sacrés serpentant à travers les bois Shinto.",
-        image: "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=600&fit=crop"
+        image: "/images/fushimi_inari.png"
       },
       {
         name: "Bambouseraie d'Arashiyama",
         desc: "Un sentier serein et envoûtant entre de gigantesques tiges de bambou émeraude qui se balancent au gré du vent doux de Kyoto.",
-        image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=600&fit=crop&blur=2"
+        image: "/images/arashiyama_bamboo.png"
       }
     ]
   },
@@ -98,17 +98,17 @@ export const destinations: Destination[] = [
       {
         name: "Quartier de Dotonbori",
         desc: "Le canal emblématique d'Osaka entouré d'enseignes lumineuses animées, dont le célèbre coureur Glico.",
-        image: "https://images.unsplash.com/photo-1590250643830-179750676230?q=80&w=600&fit=crop"
+        image: "/images/dotonbori.png"
       },
       {
         name: "Château d'Osaka (Osaka-jo)",
         desc: "Un splendide palais de samouraïs entouré de douves de pierre massives et de cerisiers en fleurs, érigé au XVIe siècle.",
-        image: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=600&fit=crop"
+        image: "/images/osaka_castle.png"
       },
       {
         name: "Quartier rétro de Shinsekai",
         desc: "Un quartier nostalgique inspiré des parcs d'attractions vintage d'avant-guerre, dominé par la tour Tsutenkaku.",
-        image: "https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?q=80&w=600&fit=crop&blur=1"
+        image: "/images/shinsekai.png"
       }
     ]
   },
@@ -140,12 +140,12 @@ export const destinations: Destination[] = [
       {
         name: "Temple Todai-ji",
         desc: "L'une des plus grandes structures en bois de la planète abritant le monumental Grand Bouddha en bronze de 15 mètres de haut.",
-        image: "https://images.unsplash.com/photo-1542640244-7e672d6cef21?q=80&w=600&fit=crop"
+        image: "/images/todai_ji.png"
       },
       {
         name: "Sanctuaire Kasuga Taisha",
         desc: "Le sanctuaire le plus célèbre de Nara, niché dans une forêt de mousse mystique et orné de milliers de lanternes en bronze et en pierre.",
-        image: "https://images.unsplash.com/photo-1504109586057-7a2ae83d1338?q=80&w=600&blur=2"
+        image: "/images/kasuga_taisha.png"
       }
     ]
   }
