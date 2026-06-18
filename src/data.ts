@@ -29,12 +29,12 @@ export const destinations: Destination[] = [
       {
         name: "Temple Senso-ji",
         desc: "Le plus ancien et le plus emblématique temple bouddhiste de Tokyo situé à Asakusa, doté de la magnifique porte Kaminarimon.",
-        image: "/images/senso_ji.png"
+        image: "/images/senso_ji.webp"
       },
       {
         name: "Quartier électrique d'Akihabara",
         desc: "Le légendaire quartier des néons et capitale mondiale des animés, mangas, jeux rétro et culture tech.",
-        image: "/images/akihabara.png"
+        image: "/images/akihabara.webp"
       }
     ]
   },
@@ -66,12 +66,12 @@ export const destinations: Destination[] = [
       {
         name: "Fushimi Inari-Taisha",
         desc: "Le chemin de montagne mystique bordé de plus de 10 000 torii vermillon sacrés serpentant à travers les bois Shinto.",
-        image: "/images/fushimi_inari.png"
+        image: "/images/fushimi_inari.webp"
       },
       {
         name: "Bambouseraie d'Arashiyama",
         desc: "Un sentier serein et envoûtant entre de gigantesques tiges de bambou émeraude qui se balancent au gré du vent doux de Kyoto.",
-        image: "/images/arashiyama_bamboo.png"
+        image: "/images/arashiyama_bamboo.webp"
       }
     ]
   },
@@ -98,17 +98,17 @@ export const destinations: Destination[] = [
       {
         name: "Quartier de Dotonbori",
         desc: "Le canal emblématique d'Osaka entouré d'enseignes lumineuses animées, dont le célèbre coureur Glico.",
-        image: "/images/dotonbori.png"
+        image: "/images/dotonbori.webp"
       },
       {
         name: "Château d'Osaka (Osaka-jo)",
         desc: "Un splendide palais de samouraïs entouré de douves de pierre massives et de cerisiers en fleurs, érigé au XVIe siècle.",
-        image: "/images/osaka_castle.png"
+        image: "/images/osaka_castle.webp"
       },
       {
         name: "Quartier rétro de Shinsekai",
         desc: "Un quartier nostalgique inspiré des parcs d'attractions vintage d'avant-guerre, dominé par la tour Tsutenkaku.",
-        image: "/images/shinsekai.png"
+        image: "/images/shinsekai.webp"
       }
     ]
   },
@@ -140,12 +140,12 @@ export const destinations: Destination[] = [
       {
         name: "Temple Todai-ji",
         desc: "L'une des plus grandes structures en bois de la planète abritant le monumental Grand Bouddha en bronze de 15 mètres de haut.",
-        image: "/images/todai_ji.png"
+        image: "/images/todai_ji.webp"
       },
       {
         name: "Sanctuaire Kasuga Taisha",
         desc: "Le sanctuaire le plus célèbre de Nara, niché dans une forêt de mousse mystique et orné de milliers de lanternes en bronze et en pierre.",
-        image: "/images/kasuga_taisha.png"
+        image: "/images/kasuga_taisha.webp"
       }
     ]
   }
